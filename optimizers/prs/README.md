@@ -54,25 +54,25 @@ As a compromise, we focus more on the *magnitude* similarity. That is, two diffe
 The following result is obtained on the **Ellipsoid** benchmark function:
 
 ```python
-best_so_far_y: 3.94532960e8
+best_so_far_y: 3.9791342e7
 n_function_evaluations: about 2000000
-Runtime: 2.37694e2
+Runtime: 1.85092e2
 ```
 
 The following result is obtained on the **Rosenbrock** benchmark function:
 
 ```python
-best_so_far_y: 1.0239339e7
+best_so_far_y: 2.62053e5
 n_function_evaluations: about 2000000
-Runtime: 2.46521e2
+Runtime: 3.98269e2
 ```
 
 The following result is obtained on the **Rastrign** benchmark function:
 
 ```python
-best_so_far_y: 1.6e4
+best_so_far_y: 9.817e3
 n_function_evaluations: about 2000000
-Runtime: 1.52865e2
+Runtime: 5.18111e2
 ```
 
 Luckily, we observe the almostly same results!
