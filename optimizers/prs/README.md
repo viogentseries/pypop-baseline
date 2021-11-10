@@ -37,6 +37,7 @@ The following result is obtained on the **Rastrign** benchmark function:
 ```python
 best_so_far_y: 9.938e3
 n_function_evaluations: about 2000000
+Runtime: 2.34082e2
 ```
 
 ## Open-Source Python Implementation in ```PyPop```
