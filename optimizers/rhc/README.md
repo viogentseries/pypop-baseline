@@ -65,9 +65,9 @@ Runtime: 1.84341e2
 The following result is obtained on the **Rosenbrock** benchmark function:
 
 ```python
-best_so_far_y: 3.9791342e7
+best_so_far_y: 2.9621e4
 n_function_evaluations: about 2000000
-Runtime: 1.84341e2
+Runtime: 2.12897e2
 ```
 
 
