@@ -19,27 +19,27 @@ For making comparisons, we need to use the code, as represented in the same fold
 The following result is obtained on the **Ellipsoid** benchmark function:
 
 ```python
-best_so_far_y: 3.8060228e7
+best_so_far_y: 1.0084757e7
 n_function_evaluations: about 2000000
-Runtime: 3.04709e2
+Runtime: 3.03043e2
 ```
 
 
 The following result is obtained on the **Rosenbrock** benchmark function:
 
 ```python
-best_so_far_y: 3.8060228e7
+best_so_far_y: 3.2237e4
 n_function_evaluations: about 2000000
-Runtime: 3.04709e2
+Runtime: 3.51968e2
 ```
 
 
 The following result is obtained on the **Rastrigin** benchmark function:
 
 ```python
-best_so_far_y: 9.959e3
+best_so_far_y: 1.6000e4
 n_function_evaluations: about 2000000
-Runtime:2.33276e+02
+Runtime:2.16601e+02
 ```
 
 ## Open-Source Python Implementation in ```PyPop```
