@@ -8,7 +8,6 @@ from rhc import RHC as Solver
 
 class TestRHC(unittest.TestCase):
     def test_optimize(self):
-        start_run = time.time()
         ndim_problem = 1000
         for f in [ellipsoid, rosenbrock, rastrigin]:
             print('*' * 7 + ' ' + f.__name__ + ' ' + '*' * 7)
@@ -24,6 +23,7 @@ class TestRHC(unittest.TestCase):
                        'record_fitness': True,
                        'record_fitness_frequency': 200000}
             solver = Solver(problem, options)
+            start_run = time.time()
             results = solver.optimize()
             print(results)
             print('*** Runtime: {:7.5e}'.format(time.time() - start_run))
