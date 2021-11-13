@@ -53,6 +53,7 @@ The following result is obtained on the **Ellipsoid** benchmark function:
 ```python
 best_so_far_y: 1.0400416e7
 n_function_evaluations: about 2000000
+Runtime: 2.63183e2
 ```
 
 The following result is obtained on the **Rosenbrock** benchmark function:
@@ -60,6 +61,7 @@ The following result is obtained on the **Rosenbrock** benchmark function:
 ```python
 best_so_far_y: 2.9119e4
 n_function_evaluations: about 2000000
+Runtime: 2.98838e2
 ```
 
 The following result is obtained on the **Rastrigin** benchmark function:
@@ -67,6 +69,7 @@ The following result is obtained on the **Rastrigin** benchmark function:
 ```python
 best_so_far_y: 1.6e4
 n_function_evaluations: about 2000000
+Runtime: 1.49143e2
 ```
 
 Luckily, we observe the almostly same results!
