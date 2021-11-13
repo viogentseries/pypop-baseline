@@ -8,7 +8,6 @@ from prs import PRS as Solver
 
 class TestPRS(unittest.TestCase):
     def test_optimize(self):
-        start_run = time.time()
         ndim_problem = 1000
         for f in [ellipsoid, rosenbrock, rastrign]:
             print('*' * 7 + ' ' + f.__name__ + ' ' + '*' * 7)
@@ -25,6 +24,7 @@ class TestPRS(unittest.TestCase):
                        'record_fitness_frequency': 200000,
                        'sampling_distribution': 0}
             solver = Solver(problem, options)
+            start_run = time.time()
             results = solver.optimize()
             print(results)
             print('*** Runtime: {:7.5e}'.format(time.time() - start_run))
