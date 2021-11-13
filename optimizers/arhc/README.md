@@ -19,7 +19,21 @@ For making comparisons, we need to use the code, as represented in the same fold
 The following result is obtained on the **Ellipsoid** benchmark function:
 
 ```python
-best_so_far_y: 1.1619846e7
+best_so_far_y: 1.1502654e7
+n_function_evaluations: about 2000000
+```
+
+The following result is obtained on the **Rosenbrock** benchmark function:
+
+```python
+best_so_far_y: 3.3517e5
+n_function_evaluations: about 2000000
+```
+
+The following result is obtained on the **Rastrigin** benchmark function:
+
+```python
+best_so_far_y: 1.6e4
 n_function_evaluations: about 2000000
 ```
 
