@@ -26,7 +26,7 @@ n_function_evaluations: about 2000000
 The following result is obtained on the **Rosenbrock** benchmark function:
 
 ```python
-best_so_far_y: 3.3517e5
+best_so_far_y: 3.3517e4
 n_function_evaluations: about 2000000
 ```
 
@@ -48,9 +48,25 @@ For making fair comparisons, we need to use the code with the same hyper-paramet
 Owing to their difference on random number generation (RNG), we do NOT expect the exactly same optimization result even on the same function.
 As a compromise, we focus more on the *magnitude* similarity. That is, two different implementations should generate as the same magnitude as possible, even under randomness.
 
-```Python
+The following result is obtained on the **Ellipsoid** benchmark function:
+
+```python
 best_so_far_y: 1.0400416e7
-n_function_evaluations: 2000000
+n_function_evaluations: about 2000000
+```
+
+The following result is obtained on the **Rosenbrock** benchmark function:
+
+```python
+best_so_far_y: 2.9119e4
+n_function_evaluations: about 2000000
+```
+
+The following result is obtained on the **Rastrigin** benchmark function:
+
+```python
+best_so_far_y: 1.6e4
+n_function_evaluations: about 2000000
 ```
 
 Luckily, we observe the almostly same results!
