@@ -64,7 +64,7 @@ The following result is obtained on the **Rosenbrock** benchmark function:
 ```python
 best_so_far_y: 2.62053e5
 n_function_evaluations: about 2000000
-Runtime: 3.98269e2
+Runtime: 2.10680e2
 ```
 
 The following result is obtained on the **Rastrign** benchmark function:
@@ -72,7 +72,7 @@ The following result is obtained on the **Rastrign** benchmark function:
 ```python
 best_so_far_y: 9.817e3
 n_function_evaluations: about 2000000
-Runtime: 5.18111e2
+Runtime: 1.17784e2
 ```
 
 Luckily, we observe the almostly same results!
